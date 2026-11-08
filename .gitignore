@@ -1,0 +1,61 @@
+# ==============================================================================
+# Bolla-Agentic OS: Hardened Security & Isolation Filter
+# ==============================================================================
+
+# Secrets, Keys & Credentials
+keys.txt
+*.key
+*.pem
+*.token
+*.pfx
+.env
+.env.local
+.env.*.local
+
+# Accounts & Operational Session Dumps
+accounts_*.json
+sessions/
+cookies/
+*.har
+
+# System, PID & Lock files
+*.lock
+*.pid
+*.runtime.lock
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Backups & Temporary Files
+*.bak
+*.tmp
+*.orig
+*~
+*.swp
+*.swo
+
+# IDE & OS Specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

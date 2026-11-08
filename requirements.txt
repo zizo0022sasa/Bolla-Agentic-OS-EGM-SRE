@@ -1,0 +1,8 @@
+# ==============================================================================
+# Bolla-Agentic OS: Runtime Prerequisites
+# ==============================================================================
+# Bolla-Agentic OS is engineered with ZERO external pip dependencies.
+# All governance gates, cryptographic anchors, and scanners run purely on
+# Python 3.10+ Standard Library (os, sys, json, hashlib, re, pathlib, shutil, argparse).
+#
+# If you develop additional project modules, append their dependencies below:
